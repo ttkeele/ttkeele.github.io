@@ -9,10 +9,11 @@
       }
       
       .glow {
-        font-size: 10vw;
-        color: #fff;
+        
         text-align: center;
+        color: #fff;
         animation: glow 1s ease-in-out infinite alternate;
+        font-size: 10vm;
       }
       
       @-webkit-keyframes glow {
@@ -61,7 +62,6 @@
           display: block;
         }
       }
-      
       @media screen and (max-width: 600px) {
         
         .topnav.responsive .icon {
@@ -76,9 +76,16 @@
         }
       }
 
+      .responsive {
+        width: auto;
+        height: auto;
+      }
 
-    
-    </style>
+  
+      p{
+        font-size: 17px; color: rgb(83, 233, 14); text-align: left;  
+      }
+</style>
 </head>
 
 
@@ -98,11 +105,20 @@
       </div>
 
 
-    <h1 class="glow" style="text-align: center;">Welcome to my world</h1>
+    <h1 class="glow">Welcome to my world</h1>
 
-<img src="/images/cool_colors.jpg" style="width: 90%; height: 1%; margin:5%">
+    
+    
+    <p>
+        This is my personal site. Its mission is to tell a story. Where I've been, where I'm at, and where I intend to go!
+        Here, you can find out a little about me. Where and how I learned to do what I do, what I can do for you, a couple 
+        of projects that I've completed, and how to reach me if you want to connect!
+    </p>
+    
 
-<p class="glow" style="text-align: center;">Crazy Things Can Happen Here!</p>
+<img class="responsive" src="/images/cool_colors.jpg" style="width: 90%; height: 1%; margin:5%">
+
+<p class="glow">Crazy Things Can Happen Here!</p>
 
 <div style="background-color: rgb(65, 174, 55); color:#f2f2f2; text-align:center; padding:10px; margin-top:7px;">© copyright Trenton Keele</div>
 

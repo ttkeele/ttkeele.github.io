@@ -9,7 +9,6 @@
       }
       
       .glow {
-        
         text-align: center;
         color: #fff;
         animation: glow 1s ease-in-out infinite alternate;
@@ -56,12 +55,14 @@
       }
       
       @media screen and (max-width: 600px) {
+        
         .topnav a:not(:first-child) {display: none;}
         .topnav a.icon {
           float: right;
           display: block;
         }
       }
+
       @media screen and (max-width: 600px) {
         
         .topnav.responsive .icon {
@@ -80,11 +81,15 @@
         width: auto;
         height: auto;
       }
-
-  
-      p{
-        font-size: 17px; color: rgb(83, 233, 14); text-align: left;  
+    
+      .intro {
+        background-color: tomato;
+        color: white;
+        border: 2px solid black;
+        margin: 20px;
+        padding: 20px;
       }
+
 </style>
 </head>
 
@@ -108,12 +113,13 @@
     <h1 class="glow">Welcome to my world</h1>
 
     
-    
+    <div class="intro">
     <p>
         This is my personal site. Its mission is to tell a story. Where I've been, where I'm at, and where I intend to go!
         Here, you can find out a little about me. Where and how I learned to do what I do, what I can do for you, a couple 
         of projects that I've completed, and how to reach me if you want to connect!
     </p>
+    </div>
     
 
 <img class="responsive" src="/images/cool_colors.jpg" style="width: 90%; height: 1%; margin:5%">

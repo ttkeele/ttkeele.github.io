@@ -80,21 +80,12 @@
         }
       }
 
-      .responsive {
-        width: 90%;
-        height: auto;
-        margin: 5%
-    }
-    
-      
-
       .title {
         font-size: 10vm;
         color: rgb(82, 13, 192);
         text-align: left;
         text-shadow: 0 0 5px rgb(3, 252, 239);
-
-      }
+        }
 
 
       .intro-bg {
@@ -109,6 +100,26 @@
       }
       
       .intro-text {
+        text-align: left;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        transform: translate(-20%, -20%);
+        color: rgb(32, 242, 102);
+      }
+
+      .outtro-bg {
+        background-image: url("/images/whats-next.jpg");
+        background-color: #cccccc;
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        margin: 5%;;
+      }
+      
+      .outtro-text {
         text-align: left;
         position: absolute;
         top: 20%;
@@ -154,7 +165,20 @@
       <h1 class="glow">Crazy Things Can Happen Here!</h1>
     
 
-<img class="responsive" src="/images/whats-next.jpg" >
+      <div class="outtro-bg">
+        <div class="outtro-text">
+          <p>Based in Tulsa, I specialize in front-end design and development.
+              My passion lies with design; I love the challenges that come
+              with fully expressing creative thought and development.
+              Most of my development focus has been on HTML, CSS, and JavaScript. I have 
+              worked with frameworks such as React, Vue, and Node. For 
+              back-end langauges I've mostly used C and PHP. As far as databases,
+              I have stuck with MySQL and MongoDB. To wrap it all up, 
+              I'm pretty familar with Python, making automation and data-analytics
+              possible.  
+          </p>
+        </div>
+      </div>
 
 <h1 class="glow">Are you ready to explore?</h1>
 

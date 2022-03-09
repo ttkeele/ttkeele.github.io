@@ -85,26 +85,34 @@
         margin: 5%
       }
     
-      .intro {
-          
-        background-image: url(images/gathering_knowledge.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        color: rgb(32, 242, 102);
-        border: 2px solid rgb(82, 13, 192);
-        margin: 20px;
-        padding: 20px;
-        box-shadow: 10px 10px 5px lightblue;
-      }
+      
 
       .title {
         font-size: 10vm;
         color: rgb(82, 13, 192);
         text-align: left;
-        text-shadow: 0 10px rgb(3, 252, 239);
+        text-shadow: 5px rgb(3, 252, 239);
 
+      }
+
+
+      .intro-bg {
+        background-image: url("/images/gathering_knowledge.jpg");
+        background-color: #cccccc;
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+      
+      .intro-text {
+        text-align: left;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgb(32, 242, 102);
       }
 
 </style>
@@ -130,14 +138,16 @@
 
     <h2 class="glow">Welcome to my world</h2>
 
-    
-    <div class="intro">
-    <p>
-        This is my personal site. Its mission is to tell a story. Where I've been, where I'm at, and where I intend to go!
-        Here, you can find out a little about me. Where and how I learned to do what I do, what I can do for you, a couple 
-        of projects that I've completed, and how to reach me if you want to connect!
-    </p>
-    </div>
+    <div class="intro-bg">
+        <div class="intro-text">
+          <p>This is my personal site. Its mission is to tell a story. 
+              Where I've been, where I'm at, and where I intend to go! 
+              Here, you can find out a little about me. Where and how 
+              I learned to do what I do, what I can do for you, a couple 
+              of projects that I've completed, and how to reach me if 
+              you want to connect!</p>
+        </div>
+      </div>
     
 
 <img class="responsive" src="/images/cool_colors.jpg" >

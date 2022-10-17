@@ -1,0 +1,42 @@
+#mem-game {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 1px;
+    max-width: fit-content;
+    margin: 0 auto;
+    height: fit-content;
+    width: fit-content;
+    object-fit: fill;
+  
+  }
+  
+  
+  
+  p{
+    font-size: 120%;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border: 5px solid #ff0000;
+    background-color: #9e9e9e;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    
+  
+  }
+  
+  
+  
+  .mem-card {
+    padding: 3px;
+    object-fit: fill;
+    width: 130px;
+    height: 180px;
+    cursor: pointer;
+    
+    background: #4d4d4d;
+  }
+  .mem-card.open { background: #fea; }
+  .mem-card.right { background: #00ff2a; }
+  .mem-card.wrong { background: #ff0000; }

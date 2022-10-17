@@ -1,6 +1,6 @@
 var mem = {
     hWrap: null,
-    url: '../ttkeele.github.io/images/',
+    url: 'ttkeele.github.io/images/',
     sets: 6,
     grid: [],
     moves: 0,

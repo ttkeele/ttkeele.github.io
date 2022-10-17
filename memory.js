@@ -84,7 +84,7 @@ var mem = {
                         mem.last = null;
 
                         if (mem.matched == mem.sets) {
-                            alert('You Found All Holbie Spots! Total Moves: ' + mem.moves);
+                            alert('You Found All Spidermen! Total Moves: ' + mem.moves);
                             mem.reset();
                         }
                     } else {
